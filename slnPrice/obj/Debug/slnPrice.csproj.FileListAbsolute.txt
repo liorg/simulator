@@ -3,3 +3,8 @@ C:\Users\lior_g\Documents\GitHub\simulator\slnPrice\bin\slnPrice.pdb
 C:\Users\lior_g\Documents\GitHub\simulator\slnPrice\obj\Debug\slnPrice.csprojResolveAssemblyReference.cache
 C:\Users\lior_g\Documents\GitHub\simulator\slnPrice\obj\Debug\slnPrice.dll
 C:\Users\lior_g\Documents\GitHub\simulator\slnPrice\obj\Debug\slnPrice.pdb
+C:\Users\lior_gr\Documents\GitHub\simulator\slnPrice\bin\slnPrice.dll
+C:\Users\lior_gr\Documents\GitHub\simulator\slnPrice\bin\slnPrice.pdb
+C:\Users\lior_gr\Documents\GitHub\simulator\slnPrice\obj\Debug\slnPrice.csprojResolveAssemblyReference.cache
+C:\Users\lior_gr\Documents\GitHub\simulator\slnPrice\obj\Debug\slnPrice.dll
+C:\Users\lior_gr\Documents\GitHub\simulator\slnPrice\obj\Debug\slnPrice.pdb

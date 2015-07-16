@@ -104,6 +104,37 @@
     <Content Include="css\icons-classic\resultset_previous.png" />
     <Content Include="css\iThing-min.css" />
     <Content Include="css\iThing.css" />
+    <Content Include="demo\slider\dateSliderDemo.js" />
+    <Content Include="demo\slider\demo.js" />
+    <Content Include="demo\slider\editSliderDemo.js" />
+    <Content Include="demo\slider\img\calendar.png" />
+    <Content Include="demo\slider\img\classicTheme.png" />
+    <Content Include="demo\slider\img\iThingTheme.png" />
+    <Content Include="demo\slider\index.html" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="demo\slider\lib\jquery-ui\css\smoothness\jquery-ui-1.8.10.custom.css" />
+    <Content Include="demo\slider\lib\jquery-ui\js\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="demo\slider\sliderDemo.js" />
+    <Content Include="demo\slider\style.css" />
+    <Content Include="img\calendar.png" />
+    <Content Include="img\classicTheme.png" />
+    <Content Include="img\iThingTheme.png" />
+    <Content Include="js\myjs\dateSliderDemo.js" />
+    <Content Include="js\myjs\demo.js" />
+    <Content Include="js\myjs\editSliderDemo.js" />
+    <Content Include="js\myjs\sliderDemo.js" />
     <Content Include="pl.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
@@ -141,6 +172,7 @@
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.min.js" />
+    <Content Include="Scripts\jquery.mousewheel.min.js" />
     <Content Include="Scripts\npm.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
@@ -156,6 +188,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
