@@ -67,8 +67,8 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
+        <div class="row hidden-sm hidden-xs">
+            <div class="col-lg-3 col-md-6 ">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                         <div class="row">
@@ -157,50 +157,107 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
-            <div class="col-lg-12 btn-group">
-                <button class="btn btn-primary"><span class="glyphicon glyphicon-chevron-left">back </span></button>
-                <button type="button" class="btn btn-primary">Apple</button>
-                <button type="button" class="btn btn-primary">Samsung</button>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                        Sony <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Tablet</a></li>
-                        <li><a href="#">Smartphone</a></li>
-                    </ul>
+            <div class="btn-toolbar" role="toolbar">
+                <div class="col-lg-12 btn-group btn-group-lg">
+                    <button class="btn btn-primary"><span class="glyphicon glyphicon-chevron-left">Back </span></button>
+                    <button type="button" class="btn btn-primary">Apple</button>
+                    <button type="button" class="btn btn-primary">Samsung</button>
+
+                    <div class="btn-group btn-group-lg">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            Add exception: <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Date Type</a></li>
+                            <li><a href="#">Clock Type</a></li>
+                            <li><a href="#">Clock Type</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-8">
                 <div class="list-group">
-                    <a href="#" class="list-group-item">
-                        <h4 class="list-group-item-heading">What is HTML?</h4>
-                        <p class="list-group-item-text">HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages.</p>
-                    </a>
-                    <a href="#" class="list-group-item active">
-                        <h4 class="list-group-item-heading">What is Bootstrap?</h4>
-                        <p class="list-group-item-text">Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of HTML and CSS based design template.</p>
-                    </a>
-                    <a href="#" class="list-group-item">
-                        <h4 class="list-group-item-heading">What is CSS?</h4>
+
+                    <a href="#" class="list-group-item ">
+                        <h4 class="list-group-item-heading">Pick Day of week:</h4>
+                        <!-- https://mapicons.mapsmarker.com/numbers-letters/days-of-the-week/?style=white-->
                         <div class="list-group-item-text">
-                            <div class="  selected" id="dateRulersExample"></div>
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn   btn-default">
+                                    <input type="checkbox" autocomplete="off" checked>
+                                    <img src="img/daysofweek_sun.png" />
+                                </label>
+                                <label class="btn  btn-default">
+                                    <input type="checkbox" autocomplete="off">
+                                    <img src="img/daysofweek_mon.png" />
+                                </label>
+                                <label class="btn  btn-default">
+                                    <input type="checkbox" autocomplete="off">
+                                    <img src="img/daysofweek_tue.png" />
+                                </label>
+                                <label class="btn  btn-default">
+                                    <input type="checkbox" autocomplete="off">
+                                    <img src="img/daysofweek_wed.png" />
+                                </label>
+                                <label class="btn  btn-default">
+                                    <input type="checkbox" autocomplete="off">
+                                    <img src="img/daysofweek_wed.png" />
+                                </label>
+                                <label class="btn  btn-default">
+                                    <input type="checkbox" autocomplete="off">
+                                    <img src="img/daysofweek_fri.png" />
+                                </label>
+                                <label class="btn  btn-default">
+                                    <input type="checkbox" autocomplete="off">
+                                    <img src="img/daysofweek_sat.png" />
+                                </label>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Pick Time:</h4>
+                        <div class="list-group-item-text row">
+                            <div class="col-lg-6 col-md-6 input-group clockpicker" data-placement="right" data-align="top" data-autoclose="true">
+                                <input type="text" class="form-control" value="09:32">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-time"></span>
+                                </span>
+                            </div>
+                            <div class="col-lg-6 col-md-6 input-group clockpicker" data-placement="right" data-align="top" data-autoclose="true">
+                                <input type="text" class="form-control" value="09:32">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-time"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                      </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Pick Date:</h4><div class="pull-right"> <button type="button" class="btn btn-success">Edit</button></div>
+                        <div class="list-group-item-text">
+                            <div class="  selected" style="width:90%" id="dateRulersExample2"></div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item ">
+                        <h4 class="list-group-item-heading">Pick Date:</h4>
+                        <div class="list-group-item-text">
+                            <div class="  selected" style="width:90%" id="dateRulersExample"></div>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <!-- http://nicolasgallagher.com/pure-css-speech-bubbles/demo/-->
-                <div style="width: 100%" class="triangle-border left">
-                    But it could be any element you want.<br />
-                    sssssss
-                    <br />
-                </div>
+        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+            <!-- http://nicolasgallagher.com/pure-css-speech-bubbles/demo/-->
+            <div class="triangle-isosceles left">
+                <p class="text-center">Price is 45$</p>
             </div>
         </div>
+    </div>
     </div>
     <!-- /.container -->
 
@@ -210,9 +267,28 @@
     <script src="Scripts/jquery-ui-1.11.4.min.js"></script>
     <script src="Scripts/jquery.mousewheel.min.js"></script>
     <script src="Scripts/jQAllRangeSliders-min.js"></script>
+
     <script>
         var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
         $("#dateRulersExample").dateRangeSlider({
+            bounds: { min: new Date(2012, 0, 1), max: new Date(2012, 11, 31, 12, 59, 59) },
+            defaultValues: { min: new Date(2012, 1, 10), max: new Date(2012, 4, 22) },
+            scales: [{
+                first: function (value) { return value; },
+                end: function (value) { return value; },
+                next: function (value) {
+                    var next = new Date(value);
+                    return new Date(next.setMonth(value.getMonth() + 1));
+                },
+                label: function (value) {
+                    return months[value.getMonth()];
+                },
+                format: function (tickContainer, tickStart, tickEnd) {
+                    tickContainer.addClass("myCustomClass");
+                }
+            }]
+        });
+        $("#dateRulersExample2").dateRangeSlider({
             bounds: { min: new Date(2012, 0, 1), max: new Date(2012, 11, 31, 12, 59, 59) },
             defaultValues: { min: new Date(2012, 1, 10), max: new Date(2012, 4, 22) },
             scales: [{

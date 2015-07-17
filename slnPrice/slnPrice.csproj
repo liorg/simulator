@@ -104,6 +104,13 @@
     <Content Include="css\icons-classic\resultset_previous.png" />
     <Content Include="css\iThing-min.css" />
     <Content Include="css\iThing.css" />
+    <Content Include="demo\slider\css\classic-min.css" />
+    <Content Include="demo\slider\css\classic.css" />
+    <Content Include="demo\slider\css\icons-classic\label.png" />
+    <Content Include="demo\slider\css\icons-classic\resultset_next.png" />
+    <Content Include="demo\slider\css\icons-classic\resultset_previous.png" />
+    <Content Include="demo\slider\css\iThing-min.css" />
+    <Content Include="demo\slider\css\iThing.css" />
     <Content Include="demo\slider\dateSliderDemo.js" />
     <Content Include="demo\slider\demo.js" />
     <Content Include="demo\slider\editSliderDemo.js" />
@@ -111,6 +118,9 @@
     <Content Include="demo\slider\img\classicTheme.png" />
     <Content Include="demo\slider\img\iThingTheme.png" />
     <Content Include="demo\slider\index.html" />
+    <Content Include="demo\slider\jquery.mousewheel.license.txt" />
+    <Content Include="demo\slider\jquery.mousewheel.min.js" />
+    <Content Include="demo\slider\lib\jQAllRangeSliders-min.js" />
     <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="demo\slider\lib\jquery-ui\css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
