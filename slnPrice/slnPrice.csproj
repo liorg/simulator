@@ -149,6 +149,13 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="img\calendar.png" />
     <Content Include="img\classicTheme.png" />
+    <Content Include="img\daysofweek_fri.png" />
+    <Content Include="img\daysofweek_mon.png" />
+    <Content Include="img\daysofweek_sat.png" />
+    <Content Include="img\daysofweek_sun.png" />
+    <Content Include="img\daysofweek_thu.png" />
+    <Content Include="img\daysofweek_tue.png" />
+    <Content Include="img\daysofweek_wed.png" />
     <Content Include="img\iThingTheme.png" />
     <Content Include="js\myjs\dateSliderDemo.js" />
     <Content Include="js\myjs\demo.js" />
