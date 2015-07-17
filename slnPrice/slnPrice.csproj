@@ -63,6 +63,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />
@@ -99,6 +104,8 @@
     <Content Include="css\bubble.css" />
     <Content Include="css\classic-min.css" />
     <Content Include="css\classic.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
     <Content Include="css\icons-classic\label.png" />
     <Content Include="css\icons-classic\resultset_next.png" />
     <Content Include="css\icons-classic\resultset_previous.png" />
@@ -138,6 +145,7 @@
     <Content Include="demo\slider\lib\jquery-ui\js\jquery-ui-1.8.16.custom.min.js" />
     <Content Include="demo\slider\sliderDemo.js" />
     <Content Include="demo\slider\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="img\calendar.png" />
     <Content Include="img\classicTheme.png" />
     <Content Include="img\iThingTheme.png" />
@@ -169,6 +177,15 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="LICENSE" />
     <Content Include="README.md" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jQAllRangeSliders-min.js" />
     <Content Include="Scripts\jQAllRangeSliders-withRuler-min.js" />
