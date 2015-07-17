@@ -111,6 +111,7 @@
     <Content Include="css\icons-classic\resultset_previous.png" />
     <Content Include="css\iThing-min.css" />
     <Content Include="css\iThing.css" />
+    <Content Include="css\price.css" />
     <Content Include="demo\slider\css\classic-min.css" />
     <Content Include="demo\slider\css\classic.css" />
     <Content Include="demo\slider\css\icons-classic\label.png" />
